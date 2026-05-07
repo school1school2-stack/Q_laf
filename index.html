@@ -99,6 +99,15 @@
         {main: "#1e3a8a", bg: "#eff6ff", pbg: "rgba(30, 58, 138, 0.05)"},
         {main: "#065f46", bg: "#ecfdf5", pbg: "rgba(6, 95, 70, 0.05)"},
         {main: "#b45309", bg: "#fffbeb", pbg: "rgba(180, 83, 9, 0.05)"}
+      // ثيمات إضافية (يمكنك لصقها داخل مصفوفة themes)
+    {main: "#6d28d9", bg: "#f5f3ff", pbg: "rgba(109, 40, 217, 0.05)"}, // ثيم بنفسجي ملكي
+    {main: "#0369a1", bg: "#f0f9ff", pbg: "rgba(3, 105, 161, 0.05)"}, // ثيم أزرق سماوي صافي
+    {main: "#be185d", bg: "#fff1f2", pbg: "rgba(190, 24, 93, 0.05)"}, // ثيم وردي غامق
+    {main: "#15803d", bg: "#f0fdf4", pbg: "rgba(21, 128, 61, 0.05)"}, // ثيم أخضر عشبي
+    {main: "#4338ca", bg: "#eef2ff", pbg: "rgba(67, 56, 202, 0.05)"}, // ثيم نيلي وقور
+    {main: "#334155", bg: "#f8fafc", pbg: "rgba(51, 65, 85, 0.05)"}, // ثيم رمادي احترافي
+    {main: "#7c2d12", bg: "#fff7ed", pbg: "rgba(124, 45, 18, 0.05)"}, // ثيم خشبي دافئ
+    {main: "#1e1b4b", bg: "#fdfdfd", pbg: "rgba(30, 27, 75, 0.03)"}  // ثيم كحلي ليلي
     ];
     const theme = themes[Math.floor(Math.random() * themes.length)];
     document.documentElement.style.setProperty('--main-color', theme.main);
