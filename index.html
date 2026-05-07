@@ -270,5 +270,55 @@
         });
     }
 </script>
+            /* تحسينات التجاوب مع الجوال */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px; /* تقليل الحوامش الخارجية */
+            }
+            .quiz-card {
+                padding: 20px 15px; /* تقليل الحشوة الداخلية للبطاقة */
+                border-top-width: 8px; /* تصغير الخط العلوي */
+            }
+            .header h3 {
+                font-size: 1.2rem; /* تصغير حجم اسم المدرسة */
+            }
+            .header h4 {
+                font-size: 1rem; /* تصغير حجم اسمك الكريم */
+            }
+            .nav-bar {
+                padding: 10px;
+                flex-direction: column; /* ترتيب العداد والموقت تحت بعضهما */
+                gap: 10px;
+            }
+            .q-text {
+                font-size: 1.3rem; /* تصغير الخط ليناسب الشاشة الطولية */
+                line-height: 1.5;
+            }
+            .options-grid {
+                grid-template-columns: 1fr; /* جعل الخيارات عمود واحد بدلاً من اثنين */
+                gap: 12px;
+            }
+            .opt {
+                padding: 15px;
+                font-size: 1.1rem; /* حجم خط مريح للعين على الجوال */
+            }
+            .reading-passage {
+                font-size: 1.1rem;
+                padding: 15px;
+                line-height: 1.7;
+            }
+            .btn {
+                width: 100%; /* جعل الأزرار بعرض الشاشة لسهولة الضغط */
+                padding: 12px;
+            }
+            input {
+                width: 100%; /* توسيع حقل الإيميل */
+                box-sizing: border-box;
+            }
+            #score-text {
+                font-size: 3.5rem; /* تصغير حجم النتيجة النهائية */
+            }
+        }
+    
 </body>
 </html>
